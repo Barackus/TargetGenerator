@@ -1,0 +1,2 @@
+D:\Master Thesis\TargetGenerator\TargetGenerator\Debug\TargetGenerator.exe
+D:\Master Thesis\TargetGenerator\TargetGenerator\Debug\TargetGenerator.pdb
