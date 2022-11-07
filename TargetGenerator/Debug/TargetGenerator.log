@@ -1,18 +1,18 @@
 ﻿  TargetGenerator.cpp
-D:\Master Thesis\TargetGenerator\TargetGenerator\TargetGenerator.cpp(81,19): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+C:\Users\Notebook Bart\Documents\GitHub\TargetGenerator\TargetGenerator\TargetGenerator.cpp(57,19): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
           with
           [
               _Rep=std::chrono::system_clock::rep
           ]
-D:\Master Thesis\TargetGenerator\TargetGenerator\TargetGenerator.cpp(246,55): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\Master Thesis\TargetGenerator\TargetGenerator\TargetGenerator.cpp(247,61): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\Master Thesis\TargetGenerator\TargetGenerator\TargetGenerator.cpp(248,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\Master Thesis\TargetGenerator\TargetGenerator\TargetGenerator.cpp(270,63): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\Master Thesis\TargetGenerator\TargetGenerator\TargetGenerator.cpp(271,69): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\Master Thesis\TargetGenerator\TargetGenerator\TargetGenerator.cpp(272,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\Master Thesis\TargetGenerator\TargetGenerator\TargetGenerator.cpp(320,19): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+C:\Users\Notebook Bart\Documents\GitHub\TargetGenerator\TargetGenerator\TargetGenerator.cpp(211,55): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Notebook Bart\Documents\GitHub\TargetGenerator\TargetGenerator\TargetGenerator.cpp(212,61): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Notebook Bart\Documents\GitHub\TargetGenerator\TargetGenerator\TargetGenerator.cpp(213,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Notebook Bart\Documents\GitHub\TargetGenerator\TargetGenerator\TargetGenerator.cpp(232,63): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Notebook Bart\Documents\GitHub\TargetGenerator\TargetGenerator\TargetGenerator.cpp(233,69): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Notebook Bart\Documents\GitHub\TargetGenerator\TargetGenerator\TargetGenerator.cpp(234,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Notebook Bart\Documents\GitHub\TargetGenerator\TargetGenerator\TargetGenerator.cpp(275,19): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
           with
           [
               _Rep=std::chrono::system_clock::rep
           ]
-  TargetGenerator.vcxproj -> D:\Master Thesis\TargetGenerator\TargetGenerator\Debug\TargetGenerator.exe
+  TargetGenerator.vcxproj -> C:\Users\Notebook Bart\Documents\GitHub\TargetGenerator\TargetGenerator\Debug\TargetGenerator.exe

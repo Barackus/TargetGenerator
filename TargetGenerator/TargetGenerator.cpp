@@ -61,14 +61,10 @@ int main()
 
     //set up random index arrays
     int proximityIndexes[totalTargets];
-    //proximityIndexes.iota
     for (int i = 0; i < totalTargets; i++) {
         proximityIndexes[i] = i;
     }
     shuffle_array(proximityIndexes,totalTargets);
-
-    cout << proximityIndexes[0];
-
 
     /*####################### CLOSE ########################*/
     int closeIndexes[thirdOfTotalTargets];
@@ -201,7 +197,6 @@ int main()
     // generate N random numbers
     int N = totalTargets;
 
-    
     for (int i = 0; i < N; i++) {
         double theta = M_PI * uniform01(generator); //theta is the azimuthal angle, starting from the X axis, giving an angle on the x,y plane range is 360 degrees or from 0 to 2 pi. To change this to the correct range, just remove the 2 *  
         double phi = acos(1 - 2 * uniform02(generator)); //phi is the polar angle, starting from the z axis, giving and angle on the z and the custom plane defined by the azimuthal angle. range is from 0 to 180 degrees or from 0 to pi.
@@ -209,8 +204,8 @@ int main()
         double y = sin(phi) * sin(theta);
         double z = cos(phi);
         //make a third of the points close, another medium, the rest far.
-        //for every one of those group, make a random half selection dynamic instead of static.
-        //multiply their vectors by the corresponding radius, store those points.
+        //for every one of those groups, make a random half selection dynamic instead of static.
+        //multiply the vectors by the corresponding radius, store those points.
         //put the coordinates in the list.
         int scalar = 0;
         if (distanceLabelList[i] == "close") scalar = closeRadius;
@@ -261,7 +256,6 @@ int main()
             file << targetLocationList[index][0] << ", " << targetLocationList[index][1] << ", " << targetLocationList[index][2] << "\n";
         }
         file << "@ \n";
-        //cout << i +"\n";
 
     }
     file << "$ \n";
@@ -278,7 +272,7 @@ int main()
 
 void shuffle_array(int arr[], int n)
 {
-    unsigned seed = std::chrono::system_clock::now().time_since_epoch().count(); //0;
+    unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
     shuffle(arr, arr + n, default_random_engine(seed));
 }
 

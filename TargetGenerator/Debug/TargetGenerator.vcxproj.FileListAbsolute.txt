@@ -1,2 +1,4 @@
 D:\Master Thesis\TargetGenerator\TargetGenerator\Debug\TargetGenerator.exe
 D:\Master Thesis\TargetGenerator\TargetGenerator\Debug\TargetGenerator.pdb
+C:\Users\Notebook Bart\Documents\GitHub\TargetGenerator\TargetGenerator\Debug\TargetGenerator.exe
+C:\Users\Notebook Bart\Documents\GitHub\TargetGenerator\TargetGenerator\Debug\TargetGenerator.pdb
